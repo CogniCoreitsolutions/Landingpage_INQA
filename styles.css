@@ -262,6 +262,20 @@ img { max-width: 100%; display: block; }
 .hero__phone a { color: #fff; font-weight: 700; border: 0; text-decoration: none; }
 .hero__phone a:hover { color: var(--cc-orange); }
 
+/* ---------- Legal pages (Impressum / Datenschutz) ---------- */
+.legal { max-width: 820px; margin: 0 auto; padding: 64px 24px 84px; }
+.legal h1 { font-size: 40px; line-height: 1.1; letter-spacing: -.018em; color: var(--cc-blue); margin: 0 0 10px; }
+.legal__intro { color: var(--cc-fg-2); font-size: 16px; line-height: 1.6; margin: 0 0 8px; }
+.legal h2 { font-size: 20px; font-weight: 700; color: var(--cc-blue); margin: 32px 0 10px; }
+.legal p, .legal li { color: var(--cc-fg-2); font-size: 15px; line-height: 1.7; margin: 0 0 10px; }
+.legal ul { padding-left: 20px; margin: 0 0 10px; }
+.legal a { color: var(--cc-blue-500); }
+.legal a:hover { color: var(--cc-orange); }
+.legal .meta { background: #fff; border: 1px solid var(--cc-line); border-left: 4px solid var(--cc-orange); border-radius: var(--cc-r-md); padding: 22px 24px; margin-bottom: 8px; }
+.legal .meta p { color: var(--cc-fg-1); }
+.legal__back { display: inline-flex; align-items: center; gap: 8px; font-family: var(--cc-font-display); font-weight: 600; font-size: 14px; color: var(--cc-fg-2); text-decoration: none; }
+.legal__back:hover { color: var(--cc-blue); }
+
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
   .hero__inner { grid-template-columns: 1fr; gap: 40px; }

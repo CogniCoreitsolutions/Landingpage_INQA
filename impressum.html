@@ -5,91 +5,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Impressum | INQA-Coaching im Handwerk · CogniCore</title>
   <meta name="robots" content="noindex">
-  <style>
-    @font-face { font-family:'Raleway'; src:url('assets/fonts/raleway.woff2') format('woff2'); font-weight:100 900; font-display:swap; }
-    :root { --red:#EC6945; --navy:#071B3E; --gray:#F4F4F6; --text:#363636; }
-    * { box-sizing:border-box; margin:0; padding:0; }
-    body { font-family:'Raleway','Segoe UI',Arial,sans-serif; color:var(--text); background:var(--white,#fff); line-height:1.7; }
-    nav { display:flex; align-items:center; justify-content:space-between; padding:14px 5%; box-shadow:0 2px 12px rgba(0,0,0,.1); position:sticky; top:0; background:#fff; z-index:100; }
-    nav img { height:40px; }
-    nav a { color:var(--navy); text-decoration:none; font-weight:600; font-size:.95rem; }
-    .wrap { max-width:760px; margin:0 auto; padding:56px 5% 72px; }
-    h1 { font-size:2rem; font-weight:800; color:var(--navy); margin-bottom:28px; }
-    h2 { font-size:1.15rem; font-weight:700; color:var(--navy); margin:30px 0 10px; }
-    p { margin-bottom:10px; color:#333; }
-    a { color:var(--red); }
-    .meta { background:var(--gray); border-left:5px solid var(--red); border-radius:10px; padding:22px 24px; margin-bottom:8px; }
-    footer { background:#1a1a2e; color:rgba(255,255,255,.6); padding:28px 5%; text-align:center; font-size:.83rem; margin-top:40px; }
-    footer a { color:rgba(255,255,255,.6); }
-  </style>
+  <link rel="stylesheet" href="cc-tokens.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<nav>
-  <a href="index.html"><img src="assets/logos/inqa-coaching-logo.png" alt="INQA Coaching"></a>
-  <a href="index.html">← Zurück zur Startseite</a>
-</nav>
 
-<div class="wrap">
-  <h1>Impressum</h1>
-
-  <div class="meta">
-    <p><strong>CogniCore IT Solutions GmbH</strong><br>
-    Im Mediapark 6B<br>
-    50670 Köln</p>
-    <p style="margin-top:12px;">
-    Telefon: +49 221 6505 3000<br>
-    E-Mail: <a href="mailto:info@cognicore.de">info@cognicore.de</a></p>
+<!-- NAV -->
+<header class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="index.html" style="text-decoration:none;border:0;">
+      <img class="logo" src="assets/logos/cognicore-logo.png" alt="CogniCore IT Solutions">
+      <span class="sep"></span>
+      <img class="inqa" src="assets/logos/inqa-coaching-logo.png" alt="INQA Coaching">
+    </a>
+    <a href="https://book.morgen.so/dominiksiegers/20min" class="btn btn--primary" target="_blank" rel="noopener">Förderfähigkeit prüfen</a>
   </div>
+</header>
 
-  <h2>Vertretungsberechtigte Geschäftsführer</h2>
-  <p>Dominik Siegers, Michael Lohmar</p>
+<main class="section--surface">
+  <div class="legal">
+    <a href="index.html" class="legal__back">
+      <svg style="width:16px;height:16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+      Zurück zur Startseite
+    </a>
+    <h1 style="margin-top:24px;">Impressum</h1>
 
-  <h2>Registereintrag</h2>
-  <p>Eintragung im Handelsregister.<br>
-  Registergericht: Amtsgericht Köln<br>
-  Registernummer: HRB 119305</p>
+    <div class="meta">
+      <p><strong>CogniCore IT Solutions GmbH</strong><br>
+      Im Mediapark 6B<br>
+      50670 Köln</p>
+      <p style="margin-top:12px;">
+      Telefon: +49 221 6505 3000<br>
+      E-Mail: <a href="mailto:info@cognicore.de">info@cognicore.de</a></p>
+    </div>
 
-  <h2>Umsatzsteuer-Identifikationsnummer</h2>
-  <p>Gemäß § 27 a Umsatzsteuergesetz: DE369763325</p>
+    <h2>Vertretungsberechtigte Geschäftsführer</h2>
+    <p>Dominik Siegers, Michael Lohmar</p>
 
-  <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
-  <p>Dominik Siegers<br>
-  CogniCore IT Solutions GmbH<br>
-  Im Mediapark 6B, 50670 Köln</p>
+    <h2>Registereintrag</h2>
+    <p>Eintragung im Handelsregister.<br>
+    Registergericht: Amtsgericht Köln<br>
+    Registernummer: HRB 119305</p>
 
-  <h2>INQA-Coaching</h2>
-  <p>Dominik Siegers ist autorisierter INQA-Coach (INQA-Coaching-ID: IC2636110).
-  Das INQA-Coaching-Programm wird vom Bundesministerium für Arbeit und Soziales
-  aus Mitteln des Europäischen Sozialfonds Plus gefördert.</p>
+    <h2>Umsatzsteuer-Identifikationsnummer</h2>
+    <p>Gemäß § 27 a Umsatzsteuergesetz: DE369763325</p>
 
-  <h2>Haftung für Inhalte</h2>
-  <p>Als Diensteanbieter sind wir gemäß § 7 Abs. 1 DDG für eigene Inhalte auf diesen
-  Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG sind wir
-  als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde
-  Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige
-  Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von
-  Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine
-  diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten
-  Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden
-  wir diese Inhalte umgehend entfernen.</p>
+    <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+    <p>Dominik Siegers<br>
+    CogniCore IT Solutions GmbH<br>
+    Im Mediapark 6B, 50670 Köln</p>
 
-  <h2>Haftung für Links</h2>
-  <p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir
-  keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr
-  übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder
-  Betreiber der Seiten verantwortlich. Bei Bekanntwerden von Rechtsverletzungen werden wir
-  derartige Links umgehend entfernen.</p>
+    <h2>INQA-Coaching</h2>
+    <p>Dominik Siegers ist autorisierter INQA-Coach (INQA-Coaching-ID: IC2636110).
+    Das INQA-Coaching-Programm wird vom Bundesministerium für Arbeit und Soziales
+    aus Mitteln des Europäischen Sozialfonds Plus gefördert.</p>
 
-  <h2>Urheberrecht</h2>
-  <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten
-  unterliegen dem deutschen Urheberrecht. Die Marken-, Logo- und Bildmaterialien des
-  INQA-Coaching-Programms werden mit Genehmigung im Rahmen der Coach-Autorisierung
-  verwendet. Beiträge Dritter sind als solche gekennzeichnet.</p>
-</div>
+    <h2>Haftung für Inhalte</h2>
+    <p>Als Diensteanbieter sind wir gemäß § 7 Abs. 1 DDG für eigene Inhalte auf diesen
+    Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG sind wir
+    als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde
+    Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige
+    Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von
+    Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine
+    diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten
+    Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden
+    wir diese Inhalte umgehend entfernen.</p>
 
-<footer>
-  <p>Dominik Siegers · CogniCore IT Solutions GmbH · Im Mediapark 6B, 50670 Köln ·
-  <a href="datenschutz.html">Datenschutz</a></p>
+    <h2>Haftung für Links</h2>
+    <p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir
+    keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr
+    übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder
+    Betreiber der Seiten verantwortlich. Bei Bekanntwerden von Rechtsverletzungen werden wir
+    derartige Links umgehend entfernen.</p>
+
+    <h2>Urheberrecht</h2>
+    <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten
+    unterliegen dem deutschen Urheberrecht. Die Marken-, Logo- und Bildmaterialien des
+    INQA-Coaching-Programms werden mit Genehmigung im Rahmen der Coach-Autorisierung
+    verwendet. Beiträge Dritter sind als solche gekennzeichnet.</p>
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__inner">
+      <div class="foot__brand">
+        <img src="assets/logos/cognicore-logo-white.png" alt="CogniCore IT Solutions">
+        <p>CogniCore IT Solutions GmbH · Im Mediapark 6B, 50670 Köln · <a href="mailto:info@cognicore.de" style="color:inherit;border:0;">info@cognicore.de</a> · +49 221 6505 3000</p>
+      </div>
+      <div class="foot__logos">
+        <div class="foot__chip"><img src="assets/logos/inqa-coaching-logo.png" alt="INQA Coaching"></div>
+        <div class="foot__chip foot__chip--bmas"><img src="assets/logos/bmas-foerderlogo.png" alt="Gefördert durch das Bundesministerium für Arbeit und Soziales, kofinanziert von der Europäischen Union"></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot__legal">
+    <span>© 2026 CogniCore IT Solutions GmbH</span>
+    <span><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span>
+    <span class="sub">Gefördert durch das Bundesministerium für Arbeit und Soziales aus Mitteln des Europäischen Sozialfonds Plus.</span>
+  </div>
 </footer>
+
 </body>
 </html>
