@@ -192,6 +192,32 @@ img { max-width: 100%; display: block; }
 .pillar li .ico { flex-shrink: 0; width: 20px; height: 20px; color: var(--cc-orange); margin-top: 1px; }
 .pillar li b { color: var(--cc-fg-1); font-weight: 600; }
 
+/* ---------- Problem → Ansatz ---------- */
+.solve { border: 1px solid var(--cc-line); border-radius: var(--cc-r-lg); overflow: hidden; background: #fff; }
+.solve__row { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-top: 1px solid var(--cc-line); }
+.solve__row:first-child { border-top: 0; }
+.solve__problem, .solve__fix { padding: 20px 24px; display: flex; gap: 12px; align-items: flex-start; font-size: 15px; line-height: 1.5; }
+.solve__problem { color: var(--cc-fg-2); background: var(--cc-surface-2); }
+.solve__fix { color: var(--cc-fg-1); font-weight: 600; }
+.solve__problem .ico { flex-shrink: 0; width: 19px; height: 19px; color: var(--cc-fg-3); margin-top: 1px; }
+.solve__fix .ico { flex-shrink: 0; width: 19px; height: 19px; color: var(--cc-orange); margin-top: 1px; }
+.solve__head { display: grid; grid-template-columns: 1fr 1fr; }
+.solve__head span { padding: 12px 24px; font-family: var(--cc-font-display); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; font-weight: 700; color: var(--cc-fg-3); background: var(--cc-blue); color: #fff; }
+.solve__head span:first-child { background: var(--cc-blue-700); }
+
+/* ---------- Result cards ---------- */
+.results { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.result { background: #fff; border: 1px solid var(--cc-line); border-radius: var(--cc-r-md); padding: 22px; display: flex; gap: 12px; align-items: flex-start; }
+.result .ico { flex-shrink: 0; width: 22px; height: 22px; color: var(--cc-green); margin-top: 1px; }
+.result p { margin: 0; color: var(--cc-fg-1); font-size: 15px; line-height: 1.45; font-weight: 600; }
+
+/* ---------- Why CogniCore lead-in ---------- */
+.why { display: grid; grid-template-columns: 1.1fr 1fr; gap: 48px; align-items: start; }
+.why__text p { color: var(--cc-fg-2); font-size: 16px; line-height: 1.65; margin: 0 0 14px; }
+.why__list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 14px; }
+.why__list li { display: flex; gap: 12px; align-items: flex-start; color: var(--cc-fg-1); font-size: 15px; font-weight: 600; line-height: 1.45; }
+.why__list .ico { flex-shrink: 0; width: 20px; height: 20px; color: var(--cc-orange); margin-top: 1px; }
+
 /* ---------- Eligibility check ---------- */
 .eligible { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
 .eligible__head h2 { font-size: 34px; line-height: 1.12; letter-spacing: -.015em; color: var(--cc-blue); margin: 0 0 14px; }
@@ -246,6 +272,11 @@ img { max-width: 100%; display: block; }
   .foot__inner { grid-template-columns: 1fr; gap: 32px; }
   .pillars { grid-template-columns: 1fr; }
   .eligible { grid-template-columns: 1fr; gap: 28px; }
+  .results { grid-template-columns: 1fr; }
+  .why { grid-template-columns: 1fr; gap: 28px; }
+  .solve__row, .solve__head { grid-template-columns: 1fr; }
+  .solve__head span:first-child { display: none; }
+  .solve__problem { border-bottom: 1px solid var(--cc-line); }
 }
 @media (max-width: 560px) {
   .hero h1 { font-size: 36px; }
