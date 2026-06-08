@@ -1,77 +1,68 @@
-# LinkedIn Posts – HeroCon Kampagne
+# LinkedIn-Posts – INQA-Coaching / HeroCon
+
+Tonalität: sachlich, direkt, kein Emoji, kein Ausrufezeichen. Ich-Form für Dominik,
+Sie-Ansprache für Leser. Fokus ausschließlich auf Gestaltungsfeld 1 und 6.
+Landingpage: https://handwerk.cognicore.de
 
 ---
 
-## POST 1: HeroCon-Ankündigung
-**(Timing: Mittwoch oder Donnerstag vor der Messe – 11. oder 12. Juni)**
+## POST 1 – Vorstellung: INQA-Coaching allgemein
+**Timing: Dienstag/Mittwoch, 09./10.06.**
+
+Ich bin jetzt autorisierter INQA-Coach. Was das ist und warum es für viele Betriebe relevant ist.
+
+INQA-Coaching ist ein gefördertes Beratungsprogramm des Bundesministeriums für Arbeit und Soziales, kofinanziert von der Europäischen Union. Kleine und mittlere Unternehmen können damit bis zu 80 Prozent der Beratungskosten abdecken, wenn sie an einer konkreten Veränderung im Betrieb arbeiten wollen.
+
+Es geht dabei nicht um eine Präsentation mit Empfehlungen, sondern um begleitete Umsetzung über mehrere Monate, mit dem Team und im Alltag des Betriebs.
+
+Ich bin für zwei Gestaltungsfelder autorisiert:
+
+Gestaltungsfeld 1, neue Geschäftsmodelle und Innovationsstrategien. Vereinfacht: womit ein Betrieb morgen planbar verdient, über das Tagesgeschäft hinaus.
+
+Gestaltungsfeld 6, Arbeitsplatz der Zukunft. Vereinfacht: Abläufe und Arbeitsorganisation so gestalten, dass der Betrieb planbarer läuft und gute Leute bleiben.
+
+Wenn Sie ein KMU führen oder jemanden kennen, für den das passt, schreiben Sie mir gern eine Nachricht.
+
+https://handwerk.cognicore.de
+
+#INQACoaching #INQA #Förderung #KMU #Mittelstand
 
 ---
 
-🔨 Freitag bin ich auf der HeroCon in Dortmund – und ich freue mich drauf.
+## POST 2 – Targeted: Handwerksbetriebe
+**Timing: Mittwoch, 11.06.**
 
-Als frisch autorisierter INQA-Coach spreche ich dort gezielt mit Handwerksbetrieben, die wissen wollen: Wie komme ich an Fördermittel für Beratung – und was bringt mir das konkret?
+Drei Dinge, die ich aus Gesprächen mit Handwerksbetrieben immer wieder höre.
 
-Was ich mitbringe:
-→ Bis zu 80 % staatliche Förderung auf Beratungskosten (ESF+)
-→ 12 strukturierte Beratungstage: Prozesse, Nachfolge, Fachkräfte, Digitalisierung
-→ Praxisnah, auf Augenhöhe – kein Consulting-Sprech
+Erstens: Die Auftragslage ist gut, aber wenig planbar. Wartung und Service passieren eher zufällig, statt als feste, planbare Umsätze.
 
-Wenn du ebenfalls auf der HeroCon bist oder jemanden kennst, dem das helfen könnte: Meld dich gern – oder wir reden einfach vor Ort.
+Zweitens: Das Büro frisst den Feierabend. Angebote, Rückfragen und Baustellenmeldungen laufen über Zettel, WhatsApp und Zuruf, am Ende hängt alles am Chef.
 
-👇 Mehr Infos und Terminbuchung:
-[LINK ZUR LANDINGPAGE]
+Drittens: Gute Leute zu halten wird schwerer. Wer als Arbeitgeber überzeugen will, braucht mehr als gute Bezahlung, nämlich Abläufe, die nicht im Chaos enden.
 
-#INQA #INQACoaching #Handwerk #HeroCon #Förderung #KMU #Dortmund
+Genau an diesen Punkten setzt INQA-Coaching an, und bis zu 80 Prozent der Kosten trägt der Staat. Ich bin dafür autorisiert in den Feldern neue Geschäftsmodelle und Arbeitsplatz der Zukunft.
 
----
+Sie kennen einen Handwerksbetrieb, für den das relevant sein könnte: Leiten Sie diesen Beitrag gern weiter. Ob ein Betrieb förderfähig ist, lässt sich in einem kurzen, kostenfreien Gespräch klären.
 
-## POST 2: INQA-Coach Vorstellung
-**(Timing: Montag oder Dienstag – 9. oder 10. Juni)**
+https://handwerk.cognicore.de
+
+#Handwerk #Handwerksbetrieb #INQACoaching #Förderung #KMU
 
 ---
 
-Ich bin jetzt offiziell autorisierter INQA-Coach. Was das bedeutet – und warum mich das ehrlich gesagt ein bisschen stolz macht.
+## POST 3 – Ankündigung: HeroCon Dortmund
+**Timing: Donnerstag früh, 12.06.**
 
-INQA-Coaching ist ein staatlich gefördertes Beratungsprogramm des Bundesministeriums für Arbeit und Soziales. Kleine und mittlere Unternehmen bekommen bis zu 80 % der Beratungskosten erstattet – für echte, begleitete Veränderungsprozesse.
+Am Freitag bin ich auf der HeroCon in Dortmund, als autorisierter INQA-Coach.
 
-Meine Schwerpunkte:
-→ Gestaltungsfeld 1: Neue Geschäftsmodelle & Innovationsstrategien
-→ Gestaltungsfeld 6: Arbeitsplatz der Zukunft & Arbeitszeitgestaltung
+Mein Thema dort: geförderte Beratung für Handwerksbetriebe. Konkret zwei Fragen, die fast jeden Betrieb betreffen. Wie wird das Geschäft planbarer, über das Tagesgeschäft hinaus. Und wie wird der Arbeitsplatz so organisiert, dass gute Leute bleiben.
 
-Besonders am Herzen liegt mir: Handwerksbetriebe.
+Bis zu 80 Prozent der Beratungskosten trägt das Bundesministerium für Arbeit und Soziales. Ob ein Betrieb förderfähig ist, klären wir in einem kurzen Gespräch.
 
-Die kämpfen gerade an vielen Fronten gleichzeitig – Fachkräftemangel, Nachfolge, Digitalisierung – und haben oft keine Zeit, sich damit strukturiert auseinanderzusetzen. Genau da setze ich an.
+Sie sind auch vor Ort: Schreiben Sie mir kurz, dann treffen wir uns auf der Messe. Vorab Informationen und Terminbuchung gibt es hier.
 
-Wenn du einen Handwerksbetrieb führst oder kennst, der sich fragt: "Gibt es da auch Unterstützung für uns?" – die Antwort ist Ja.
+https://handwerk.cognicore.de
 
-👇 [LINK ZUR LANDINGPAGE]
-
-#INQACoaching #INQA #Handwerk #Förderung #Beratung #KMU #Transformation
-
----
-
-## CAROUSEL-POST: Posting-Guide
-**(Timing: Freitag auf der Messe oder am Tag danach)**
-
-LinkedIn unterstützt native Carousels als PDF-Upload:
-
-1. Die 5 Bilder aus `Dateipaket/Carousel_Handwerk/` in ein PDF zusammenfügen  
-   (z.B. mit PDF24: Bilder → PDF, dann reihenfolge 01–05)
-2. Als LinkedIn-Post → "Dokument" hochladen → PDF auswählen
-3. LinkedIn zeigt es automatisch als durchblätterbares Carousel an
-
-**Caption für den Carousel-Post:**
-
----
-
-Handwerk hat goldenen Boden – aber nur, wenn die Rahmenbedingungen stimmen. 🔨
-
-Als INQA-Coach helfe ich Handwerksbetrieben, die richtigen Stellschrauben zu finden: Prozesse, Fachkräfte, Nachfolge, Digitalisierung.
-
-Und das Beste: Bis zu 80 % der Kosten übernimmt der Staat.
-
-👉 Mehr dazu und Termin buchen: [LINK ZUR LANDINGPAGE]
-
-#INQA #Handwerk #Förderung #INQACoaching #KMU
+#HeroCon #Handwerk #INQACoaching #Dortmund #Förderung
 
 ---
