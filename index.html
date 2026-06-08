@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INQA-Coaching im Handwerk | Dominik Siegers – CogniCore</title>
+  <meta name="description" content="Fördermittel für Handwerksbetriebe: Mit INQA-Coaching bis zu 80% der Beratungskosten sparen. Jetzt Termin vereinbaren.">
+  <style>
+    :root {
+      --red:       #BE0032;
+      --red-dark:  #8C0025;
+      --coral:     #FF4D6D;
+      --navy:      #0F1155;
+      --blue:      #4935E0;
+      --white:     #FFFFFF;
+      --gray:      #F4F4F6;
+      --text:      #1A1A2E;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.6;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--white);
+      box-shadow: 0 2px 12px rgba(0,0,0,.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 5%;
+    }
+    nav img { height: 40px; }
+    .btn {
+      display: inline-block;
+      background: var(--red);
+      color: var(--white);
+      font-weight: 700;
+      padding: 12px 28px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background .2s;
+      font-size: .95rem;
+    }
+    .btn:hover { background: var(--red-dark); }
+    .btn-outline {
+      background: transparent;
+      border: 2px solid var(--white);
+      color: var(--white);
+    }
+    .btn-outline:hover { background: rgba(255,255,255,.15); }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(135deg, var(--red) 0%, var(--red-dark) 60%, var(--navy) 100%);
+      color: var(--white);
+      padding: 80px 5% 70px;
+      text-align: center;
+    }
+    .hero .badge {
+      display: inline-block;
+      background: rgba(255,255,255,.15);
+      border: 1px solid rgba(255,255,255,.35);
+      border-radius: 20px;
+      padding: 6px 18px;
+      font-size: .85rem;
+      font-weight: 600;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.15rem;
+      opacity: .9;
+      max-width: 580px;
+      margin: 0 auto 36px;
+    }
+    .hero-ctas { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+
+    /* ── CAROUSEL ── */
+    .section { padding: 64px 5%; }
+    .section-title {
+      text-align: center;
+      font-size: 1.75rem;
+      font-weight: 800;
+      margin-bottom: 10px;
+      color: var(--navy);
+    }
+    .section-sub {
+      text-align: center;
+      color: #666;
+      margin-bottom: 40px;
+      font-size: 1rem;
+    }
+
+    .carousel-wrap { position: relative; max-width: 420px; margin: 0 auto; user-select: none; }
+    .carousel-track { overflow: hidden; border-radius: 16px; box-shadow: 0 8px 40px rgba(0,0,0,.18); }
+    .carousel-track img {
+      width: 100%;
+      display: none;
+      border-radius: 16px;
+    }
+    .carousel-track img.active { display: block; }
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: var(--white);
+      border: none;
+      border-radius: 50%;
+      width: 44px;
+      height: 44px;
+      font-size: 1.3rem;
+      cursor: pointer;
+      box-shadow: 0 2px 10px rgba(0,0,0,.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background .2s;
+      z-index: 5;
+    }
+    .carousel-btn:hover { background: var(--gray); }
+    .carousel-prev { left: -22px; }
+    .carousel-next { right: -22px; }
+    .carousel-dots { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
+    .carousel-dots span {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      background: #ccc;
+      cursor: pointer;
+      transition: background .2s;
+    }
+    .carousel-dots span.active { background: var(--red); }
+
+    /* ── FUNDING HIGHLIGHT ── */
+    .funding {
+      background: var(--red);
+      color: var(--white);
+      text-align: center;
+      padding: 60px 5%;
+    }
+    .funding .big { font-size: clamp(4rem, 12vw, 7rem); font-weight: 900; line-height: 1; }
+    .funding .big span { font-size: clamp(2rem, 6vw, 3.5rem); vertical-align: super; }
+    .funding h2 { font-size: 1.4rem; font-weight: 600; margin-top: 10px; opacity: .95; }
+    .funding p { max-width: 560px; margin: 14px auto 0; opacity: .85; font-size: 1rem; }
+
+    /* ── TOPICS ── */
+    .topics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 22px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .topic-card {
+      background: var(--gray);
+      border-radius: 14px;
+      padding: 28px 24px;
+      border-left: 5px solid var(--red);
+    }
+    .topic-card .icon { font-size: 2rem; margin-bottom: 12px; }
+    .topic-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; color: var(--navy); }
+    .topic-card p { font-size: .9rem; color: #555; line-height: 1.55; }
+
+    /* ── PROCESS ── */
+    .process { background: var(--gray); }
+    .steps { display: flex; flex-wrap: wrap; gap: 0; max-width: 800px; margin: 0 auto; }
+    .step {
+      flex: 1;
+      min-width: 160px;
+      text-align: center;
+      padding: 24px 16px;
+      position: relative;
+    }
+    .step:not(:last-child)::after {
+      content: '→';
+      position: absolute;
+      right: -12px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.4rem;
+      color: var(--red);
+    }
+    .step-num {
+      width: 48px; height: 48px;
+      border-radius: 50%;
+      background: var(--red);
+      color: var(--white);
+      font-weight: 900;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 12px;
+    }
+    .step h4 { font-size: .95rem; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
+    .step p { font-size: .85rem; color: #666; }
+
+    /* ── ABOUT ── */
+    .about-inner {
+      max-width: 740px;
+      margin: 0 auto;
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .about-text { flex: 1; min-width: 260px; }
+    .about-text h2 { font-size: 1.6rem; font-weight: 800; color: var(--navy); margin-bottom: 14px; }
+    .about-text p { color: #555; margin-bottom: 12px; line-height: 1.7; }
+    .about-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+    .tag {
+      background: var(--navy);
+      color: var(--white);
+      font-size: .8rem;
+      font-weight: 600;
+      padding: 5px 14px;
+      border-radius: 20px;
+    }
+    .about-card {
+      background: var(--navy);
+      color: var(--white);
+      border-radius: 16px;
+      padding: 28px 26px;
+      min-width: 220px;
+      flex-shrink: 0;
+      text-align: center;
+    }
+    .about-card .initials {
+      width: 72px; height: 72px;
+      border-radius: 50%;
+      background: var(--red);
+      font-size: 1.6rem;
+      font-weight: 900;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 14px;
+    }
+    .about-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 4px; }
+    .about-card p { font-size: .85rem; opacity: .75; }
+    .about-card .inqa-id {
+      margin-top: 14px;
+      font-size: .75rem;
+      opacity: .55;
+      border-top: 1px solid rgba(255,255,255,.2);
+      padding-top: 10px;
+    }
+
+    /* ── CTA SECTION ── */
+    .cta-section {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
+      color: var(--white);
+      text-align: center;
+      padding: 72px 5%;
+    }
+    .cta-section h2 { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; margin-bottom: 14px; }
+    .cta-section p { font-size: 1.05rem; opacity: .85; max-width: 520px; margin: 0 auto 32px; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: #1a1a2e;
+      color: rgba(255,255,255,.6);
+      padding: 36px 5%;
+      text-align: center;
+    }
+    .footer-logos { display: flex; align-items: center; justify-content: center; gap: 32px; flex-wrap: wrap; margin-bottom: 20px; }
+    .footer-logos img { height: 44px; filter: brightness(0) invert(1); opacity: .75; }
+    footer p { font-size: .83rem; }
+    footer a { color: rgba(255,255,255,.5); text-decoration: none; }
+    footer a:hover { color: var(--white); }
+
+    @media (max-width: 600px) {
+      .carousel-prev { left: -10px; }
+      .carousel-next { right: -10px; }
+      .step:not(:last-child)::after { display: none; }
+      .about-inner { flex-direction: column-reverse; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <img src="assets/logos/inqa-coaching-logo.png" alt="INQA Coaching">
+  <a href="https://calendly.com/DEIN-LINK" class="btn" target="_blank">Termin vereinbaren</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="badge">🔨 INQA-Coaching im Handwerk</div>
+  <h1>Mehr Zeit fürs Handwerk.<br>Weniger Last im Büro.</h1>
+  <p>Als autorisierter INQA-Coach begleite ich Handwerksbetriebe durch geförderte Beratung – praxisnah, auf Augenhöhe, bis zu 80 % staatlich bezuschusst.</p>
+  <div class="hero-ctas">
+    <a href="https://calendly.com/DEIN-LINK" class="btn" target="_blank">Jetzt kostenlos informieren →</a>
+    <a href="#was-ist-inqa" class="btn btn-outline">Mehr erfahren</a>
+  </div>
+</section>
+
+<!-- CAROUSEL -->
+<section class="section" id="was-ist-inqa">
+  <h2 class="section-title">Was INQA-Coaching für Ihr Unternehmen bedeutet</h2>
+  <p class="section-sub">Gemeinsam machen wir Arbeit besser – für Sie und Ihr Team.</p>
+  <div class="carousel-wrap">
+    <div class="carousel-track">
+      <img src="assets/carousel/handwerk_01.png" alt="Erfolgreiche Staffelübergabe im Handwerk" class="active">
+      <img src="assets/carousel/handwerk_02.png" alt="Lösungen für Ihren Betrieb">
+      <img src="assets/carousel/handwerk_03.png" alt="80% der Kosten werden übernommen">
+      <img src="assets/carousel/handwerk_04.png" alt="Jetzt Förderung sichern">
+      <img src="assets/carousel/handwerk_05.png" alt="Gemeinsam machen wir Arbeit besser">
+    </div>
+    <button class="carousel-btn carousel-prev" aria-label="Zurück">&#8249;</button>
+    <button class="carousel-btn carousel-next" aria-label="Weiter">&#8250;</button>
+    <div class="carousel-dots">
+      <span class="active"></span><span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+</section>
+
+<!-- FUNDING -->
+<section class="funding">
+  <div class="big"><span>bis zu</span> 80<span>%</span></div>
+  <h2>der Beratungskosten werden staatlich gefördert</h2>
+  <p>Das INQA-Coaching-Programm wird vom Bundesministerium für Arbeit und Soziales aus Mitteln des Europäischen Sozialfonds Plus gefördert. KMU und Handwerksbetriebe profitieren direkt.</p>
+</section>
+
+<!-- TOPICS -->
+<section class="section">
+  <h2 class="section-title">Themen für Handwerksbetriebe</h2>
+  <p class="section-sub">Wo drückt der Schuh? Ich kenne die Herausforderungen im Handwerk.</p>
+  <div class="topics-grid">
+    <div class="topic-card">
+      <div class="icon">🔄</div>
+      <h3>Nachfolge & Staffelübergabe</h3>
+      <p>Jungen Nachwuchs gewinnen, einarbeiten und langfristig binden – strukturiert und nachhaltig.</p>
+    </div>
+    <div class="topic-card">
+      <div class="icon">👷</div>
+      <h3>Fachkräfte sichern</h3>
+      <p>Attraktiver werden als Arbeitgeber: Wie Sie die richtigen Leute finden und halten.</p>
+    </div>
+    <div class="topic-card">
+      <div class="icon">⚙️</div>
+      <h3>Arbeitsabläufe optimieren</h3>
+      <p>Weniger Reibung, mehr Zeit für die eigentliche Arbeit – durch klare Prozesse und digitale Werkzeuge.</p>
+    </div>
+    <div class="topic-card">
+      <div class="icon">🏆</div>
+      <h3>Wettbewerbsfähigkeit stärken</h3>
+      <p>Neue Geschäftsmodelle, Innovationsstrategien und der Arbeitsplatz der Zukunft – konkret und umsetzbar.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section process">
+  <h2 class="section-title">So läuft INQA-Coaching ab</h2>
+  <p class="section-sub">12 Beratungstage in 3 Phasen – strukturiert und praxisnah.</p>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <h4>Initialphase</h4>
+      <p>2,5 Tage – Analyse Ihres Betriebs und gemeinsame Zielsetzung</p>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <h4>Innovationsphase</h4>
+      <p>7,5 Tage – Lösungen erarbeiten, erproben und verankern</p>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <h4>Lernphase</h4>
+      <p>2 Tage – Wissenstransfer und nachhaltige Verankerung</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section">
+  <div class="about-inner">
+    <div class="about-card">
+      <div class="initials">DS</div>
+      <h3>Dominik Siegers</h3>
+      <p>Autorisierter INQA-Coach</p>
+      <p style="margin-top:8px; font-size:.8rem; opacity:.6;">CogniCore IT Solutions GmbH<br>Köln</p>
+      <div class="inqa-id">INQA-Coaching-ID: IC2636110</div>
+    </div>
+    <div class="about-text">
+      <h2>Ihr Coach</h2>
+      <p>Als geschäftsführender Gesellschafter der CogniCore IT Solutions GmbH begleite ich seit 2020 kleine und mittlere Unternehmen auf ihrem Weg in die digitale Transformation.</p>
+      <p>Mein Schwerpunkt liegt in Prozessanalyse, Solution Design und der Einführung digitaler Werkzeuge zur Unterstützung von Veränderungsprozessen. Im INQA-Coaching kombiniere ich betriebswirtschaftliches Denken mit psychologischem Verständnis für Veränderungsprozesse.</p>
+      <div class="about-tags">
+        <span class="tag">Gestaltungsfeld 1 – Neue Geschäftsmodelle</span>
+        <span class="tag">Gestaltungsfeld 6 – Arbeitsplatz der Zukunft</span>
+        <span class="tag">Agile Coach</span>
+        <span class="tag">Seit 2020 als Berater</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-section">
+  <h2>Bereit, Ihren Betrieb weiterzuentwickeln?</h2>
+  <p>Ein kostenfreies Erstgespräch – ohne Verpflichtung. Ich erkläre Ihnen, ob und wie INQA-Coaching für Ihren Betrieb passt.</p>
+  <a href="https://calendly.com/DEIN-LINK" class="btn" target="_blank" style="font-size:1.05rem; padding:16px 40px;">Jetzt Termin vereinbaren →</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logos">
+    <img src="assets/logos/inqa-coaching-logo.png" alt="INQA Coaching">
+    <img src="assets/logos/bmas-foerderlogo.png" alt="BMAS / ESF+ Förderlogo">
+  </div>
+  <p>
+    Dominik Siegers · CogniCore IT Solutions GmbH · Im Mediapark 6b, 50670 Köln<br>
+    <a href="mailto:info@cognicore.de">info@cognicore.de</a> &nbsp;|&nbsp;
+    <a href="#">Impressum</a> &nbsp;|&nbsp;
+    <a href="#">Datenschutz</a>
+  </p>
+  <p style="margin-top:10px; font-size:.75rem; opacity:.5;">
+    Gefördert durch das Bundesministerium für Arbeit und Soziales aus Mitteln des Europäischen Sozialfonds Plus.
+  </p>
+</footer>
+
+<script>
+  const imgs = document.querySelectorAll('.carousel-track img');
+  const dots = document.querySelectorAll('.carousel-dots span');
+  let cur = 0;
+
+  function goTo(n) {
+    imgs[cur].classList.remove('active');
+    dots[cur].classList.remove('active');
+    cur = (n + imgs.length) % imgs.length;
+    imgs[cur].classList.add('active');
+    dots[cur].classList.add('active');
+  }
+
+  document.querySelector('.carousel-prev').addEventListener('click', () => goTo(cur - 1));
+  document.querySelector('.carousel-next').addEventListener('click', () => goTo(cur + 1));
+  dots.forEach((d, i) => d.addEventListener('click', () => goTo(i)));
+
+  // Auto-advance
+  setInterval(() => goTo(cur + 1), 4500);
+
+  // Touch swipe
+  const track = document.querySelector('.carousel-track');
+  let startX = 0;
+  track.addEventListener('touchstart', e => startX = e.touches[0].clientX);
+  track.addEventListener('touchend', e => {
+    const diff = startX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 40) goTo(diff > 0 ? cur + 1 : cur - 1);
+  });
+</script>
+
+</body>
+</html>
