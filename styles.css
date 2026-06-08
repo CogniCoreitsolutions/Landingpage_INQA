@@ -19,11 +19,14 @@ img { max-width: 100%; display: block; }
               transform var(--cc-dur-fast) var(--cc-ease-out);
 }
 .btn:active { transform: translateY(1px); }
-.btn--primary { background: var(--cc-blue); color: #fff; }
+/* halte die Button-Schrift weiß, auch gegen die globale a:hover-Regel des Design-Systems */
+.btn--primary, .btn--accent, .btn--ghost-light,
+.btn--primary:hover, .btn--accent:hover, .btn--ghost-light:hover { color: #fff; }
+.btn--primary { background: var(--cc-blue); }
 .btn--primary:hover { background: var(--cc-blue-700); }
-.btn--accent { background: var(--cc-orange); color: #fff; }
+.btn--accent { background: var(--cc-orange); }
 .btn--accent:hover { background: var(--cc-orange-600); }
-.btn--ghost-light { background: transparent; color: #fff; border-color: rgba(255,255,255,.45); }
+.btn--ghost-light { background: transparent; border-color: rgba(255,255,255,.45); }
 .btn--ghost-light:hover { border-color: #fff; background: rgba(255,255,255,.06); }
 .btn .ico { width: 18px; height: 18px; }
 
