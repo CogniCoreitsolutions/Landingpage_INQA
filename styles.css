@@ -156,9 +156,10 @@ img { max-width: 100%; display: block; }
 .foot__inner { display: grid; grid-template-columns: 1.4fr 1fr; gap: 56px; align-items: start; }
 .foot__brand img { height: 32px; margin-bottom: 16px; }
 .foot__brand p { color: #6B7FA8; font-size: 14px; max-width: 340px; line-height: 1.55; margin: 0; }
-.foot__logos { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; }
-.foot__logos img { height: 42px; filter: brightness(0) invert(1); opacity: .7; }
-.foot__logos .label { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: #6B7FA8; font-weight: 600; }
+.foot__logos { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; justify-content: flex-end; }
+.foot__chip { background: #fff; border-radius: var(--cc-r-md); padding: 12px 16px; display: flex; align-items: center; }
+.foot__chip img { height: 40px; width: auto; display: block; }
+.foot__chip--bmas img { height: 46px; }
 .foot__legal { max-width: 1180px; margin: 36px auto 0; padding: 18px 24px 0; border-top: 1px solid rgba(255,255,255,.08); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 12px; color: #6B7FA8; }
 .foot__legal a { color: var(--cc-fg-on-blue-2); text-decoration: none; border: 0; }
 .foot__legal a:hover { color: var(--cc-orange); }
