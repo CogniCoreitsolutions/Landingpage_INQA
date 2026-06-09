@@ -66,3 +66,20 @@ https://handwerk.cognicore.de
 #HeroCon #Handwerk #INQACoaching #Dortmund #Förderung
 
 ---
+
+## POST 4 – Rückblick: nach der HeroCon
+**Timing: Montag, 16.06.**
+
+Ein paar Eindrücke von der HeroCon in Dortmund.
+
+Was in den Gesprächen mit Handwerksbetrieben am häufigsten kam, waren zwei Themen. Erstens: Wie wird das Geschäft planbarer, weg vom reinen Tagesgeschäft. Zweitens: Wie hält man gute Leute, wenn die Abläufe im Hintergrund nicht stimmen.
+
+Beides sind keine Technikfragen, sondern Fragen der Organisation. Und für beide gibt es mit INQA-Coaching einen geförderten Einstieg, bis zu 80 Prozent der Beratungskosten trägt der Bund.
+
+Danke an alle, mit denen ich sprechen konnte. Wenn wir uns auf der Messe verpasst haben oder Sie das Thema später angehen wollen: Ein kurzes, kostenfreies Gespräch zur Förderfähigkeit ist jederzeit möglich.
+
+https://handwerk.cognicore.de
+
+#Handwerk #INQACoaching #Förderung #KMU #HeroCon
+
+---
