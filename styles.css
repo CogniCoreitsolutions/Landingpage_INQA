@@ -166,6 +166,8 @@ img { max-width: 100%; display: block; }
 .foot__legal { max-width: 1180px; margin: 36px auto 0; padding: 18px 24px 0; border-top: 1px solid rgba(255,255,255,.08); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 12px; color: #6B7FA8; }
 .foot__legal a { color: var(--cc-fg-on-blue-2); text-decoration: none; border: 0; }
 .foot__legal a:hover { color: var(--cc-orange); }
+.foot__legal .cookie-link { background: none; border: 0; padding: 0; font: inherit; color: var(--cc-fg-on-blue-2); cursor: pointer; }
+.foot__legal .cookie-link:hover { color: var(--cc-orange); }
 .foot__legal .sub { font-size: 11px; opacity: .8; max-width: 620px; }
 
 /* ---------- Hero fact panel ---------- */
