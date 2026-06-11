@@ -238,6 +238,16 @@ img { max-width: 100%; display: block; }
 .checklist b { color: var(--cc-fg-1); font-weight: 600; font-size: 15px; }
 .checklist span { display: block; color: var(--cc-fg-3); font-size: 13px; margin-top: 2px; }
 
+/* ---------- Interaktiver Förder-Check ---------- */
+.checklist--interactive li { padding: 0; }
+.checklist--interactive label { display: flex; gap: 14px; align-items: flex-start; cursor: pointer; width: 100%; padding: 16px 0; }
+.checklist--interactive li:first-child label { padding-top: 0; }
+.checklist--interactive li:last-child label { padding-bottom: 0; }
+.checklist--interactive input { width: 24px; height: 24px; accent-color: var(--cc-green); margin-top: 1px; flex-shrink: 0; cursor: pointer; }
+.fcheck__result { margin-top: 18px; background: var(--cc-blue); color: #fff; border-radius: var(--cc-r-md); padding: 20px 22px; }
+.fcheck__result b { display: block; font-family: var(--cc-font-display); font-size: 17px; color: #fff; }
+.fcheck__result p { color: var(--cc-fg-on-blue-2); font-size: 14.5px; margin: 8px 0 16px; line-height: 1.55; }
+
 /* ---------- Coach with photo ---------- */
 .about__media { display: flex; flex-direction: column; gap: 16px; }
 .about__photo { width: 100%; border-radius: var(--cc-r-lg); display: block; box-shadow: var(--cc-shadow-2); }
